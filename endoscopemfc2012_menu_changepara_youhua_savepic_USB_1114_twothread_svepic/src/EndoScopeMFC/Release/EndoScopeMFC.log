@@ -1,0 +1,66 @@
+﻿生成启动时间为 2020/11/14 星期六 15:20:34。
+     1>项目“E:\work_wm\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic\src\EndoScopeMFC\EndoScopeMFC.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="15.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include\wes7\um /I..\..\include /I..\..\include\opencv /I..\..\include\opencv2 /I..\..\include\directshow /Zi /nologo /W3 /WX- /sdl /Od /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Release\EndoScopeMFC.pch" /FAcs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt EndoScopeMFCDlg.cpp
+         EndoScopeMFCDlg.cpp
+     1>e:\work_wm\endoscopemfc2012_menu_changepara_youhua_savepic_usb_1114_twothread_svepic\include\directshow\d3d9types.h(1390): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\work_wm\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>EndoScopeMFCDlg.cpp(130): warning C4018: “<”: 有符号/无符号不匹配
+     1>EndoScopeMFCDlg.cpp(140): warning C4018: “<”: 有符号/无符号不匹配
+     1>EndoScopeMFCDlg.cpp(708): warning C4244: “=”: 从“double”转换到“int64”，可能丢失数据
+     1>EndoScopeMFCDlg.cpp(963): warning C4927: 转换非法；隐式应用了多个用户定义的转换
+                 调用构造函数“std::basic_string<_Elem,_Traits,_Alloc>::basic_string(const _Elem *)”时
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xstring(789) : 参见“std::basic_string<_Elem,_Traits,_Alloc>::basic_string”的声明
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>EndoScopeMFCDlg.cpp(2690): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2696): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2702): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2708): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2714): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2720): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2726): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>EndoScopeMFCDlg.cpp(2874): warning C4018: “<”: 有符号/无符号不匹配
+     1>EndoScopeMFCDlg.cpp(2969): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>EndoScopeMFCDlg.cpp(2970): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\EndoScopeMFC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib /LIBPATH:..\..\lib\weslib\um /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\..\bin\EndoScopeMFC.pdb" /MAP:"..\..\bin\EndoScopeMFC.map" /MAPINFO:EXPORTS /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\EndoScopeMFC.lib" /MACHINE:X86 /SAFESEH Release\EndoScopeMFC.res
+         Release\CEDSGrabberCB.obj
+         Release\CSetPSW.obj
+         Release\DataType.obj
+         Release\EDSCapture.obj
+         Release\EndoScopeMFC.obj
+         Release\EndoScopeMFCDlg.obj
+         Release\frameQueue.obj
+         Release\LightComIO.obj
+         Release\Login.obj
+         Release\MWCCGraphBuilder.obj
+         Release\packQueue.obj
+         Release\pch.obj
+         Release\PicQueue.obj
+         Release\PLC.obj
+         Release\ProcessCard.obj
+         Release\VideoComIO.obj
+         Release\yuvQueue.obj
+         正在生成代码
+         已完成代码的生成
+         EndoScopeMFC.vcxproj -> E:\work_wm\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic\src\EndoScopeMFC\..\..\bin\EndoScopeMFC.exe
+     1>已完成生成项目“E:\work_wm\endoscopemfc2012_menu_changepara_youhua_savepic_USB_1114_twothread_svepic\src\EndoScopeMFC\EndoScopeMFC.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.91
